@@ -51,7 +51,7 @@ $ vastai --api-key "2f51bcc1cb5ac169c9a4785b21d10d0ef4f4508a8924b5030b22253ca8ec
 # Installation:
 
 ```
-$ git clone https://github.com/tjnull/pentest-arsenal/tree/main/hashcrack-ai
+$ git clone https://github.com/k3nundrum/hashcrack-ai.git
 $ python hashcrack-ai.py -h
 
 ██╗  ██╗ █████╗ ███████╗██╗  ██╗ ██████╗██████╗  █████╗  ██████╗██╗  ██╗      █████╗ ██╗                                                                                                                        
