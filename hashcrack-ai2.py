@@ -105,7 +105,7 @@ def main():
         run_command(download_command)
         ruleset = ruleset_filename
 
-    # You can change the instance type to a differnt device if you want to use a more powerful instance and how many GPUs you want to use by changing the number in the num_gpus"
+    # You can change the instance type to a different device if you want to use a more powerful instance and how many GPUs you want to use by changing the number in the num_gpus"
     print(Fore.GREEN + "Searching for an appropriate instance...")
     search_command = (
         "vastai search offers 'datacenter = True disk_space > 50 inet_down>1000 gpu_name = RTX_4090 num_gpus > 6' "
