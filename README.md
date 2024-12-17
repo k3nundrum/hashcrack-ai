@@ -136,4 +136,5 @@ This project is under the GPLv3 Licence: Refer to license for more information.
 - Password cracking in the Cloud with Vast.ai: https://adamsvoboda.net/password-cracking-in-the-cloud-with-hashcat-vastai/
 
 # Credit
-- TJNull for the bulk of the script.
+- TJNull for the bulk of the python port.
+- Pry for the bash version PoC
