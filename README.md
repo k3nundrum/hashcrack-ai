@@ -93,6 +93,9 @@ As of now, the script is set to search for instances that have six GPU's running
     )
     instance_id = run_command(search_command, capture_output=True)
 ```
+# Getting Wordlists:
+- Use the bundled utility weakwords.py to choose your poison. CAUTIONARY NOTE: if you choose the download all option, you do run the risk of maxing out your instance's harddrive space depending on your specs.
+- `weakwords.py` can be run independently of all this AI nonsense if you want.
 
 # Cracking Examples: 
 
