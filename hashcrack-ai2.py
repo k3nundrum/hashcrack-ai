@@ -108,8 +108,8 @@ def print_ascii_banner():
                                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                
                                        %%%%%%%%%%%%%%%%%%%%%%% 
 Created by:RedSeerSecurity"""
-
-print(Fore.CYAN + banner + Style.RESET_ALL)
+    print(Fore.CYAN + banner + Style.RESET_ALL)
+    return banner
 
 # Call the function to print the banner
 print_ascii_banner()
@@ -196,7 +196,10 @@ def main():
     if pre_wordlist_url == "rockyou":
         rockyou_filename = "rockyou.txt.gz"
         rockyou_download_command = (
-            f"ssh -i hashcrack -o StrictHostKeyChecking=no {instance_ssh_url} 'sudo apt -y install gzip 7zip nano git; wget -O {rockyou_filename} {wordlist_url}; mv rockyou.txt.gz\\?inline\\=false rockyou.txt.gz; gunzip rockyou.txt.gz'"
+            f"ssh -i hashcrack -o StrictHostKeyChecking=no {instance_ssh_url} 'sudo apt -y install gzip 7zip nano git; "
+            f"wget -O {rockyou_filename} {wordlist_url}; "
+            f"mv rockyou.txt.gz\\?inline\\=false rockyou.txt.gz; "
+            f"gunzip rockyou.txt.gz'"
         )
         run_command(rockyou_download_command)
         wordlist_filename = "rockyou.txt"
