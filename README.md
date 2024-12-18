@@ -141,3 +141,13 @@ This project is under the GPLv3 Licence: Refer to license for more information.
 # Credit
 - TJNull for the bulk of the python port.
 - Pry for the bash version PoC
+
+## 🔍 A Word About Data Security
+Hashcrack-AI uses third-party cloud servers to process password hashes, enabling the computational power necessary for advanced AI-driven analysis. We don’t control these servers directly, and we understand that this may raise concerns when handling sensitive customer data.
+
+To mitigate risks:
+
+Hashcrack-AI is designed for testing non-sensitive data or hashes that have been sanitized (e.g., salted, anonymized, or from test environments).
+We strongly advise users to evaluate the tool's fit for their security policies and compliance requirements.
+## 💡 Transparency and responsible use are core to this project.
+While Hashcrack-AI brings immense value in cracking efficiency, it’s not a one-size-fits-all solution and should be used with care in regulated or high-sensitivity environments.
